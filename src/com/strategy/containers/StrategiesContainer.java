@@ -8,7 +8,7 @@ import java.util.Map;
 import com.strategy.containers.exceptions.StrategyAlreadyExistsException;
 
 /**
- * Strategies container
+ * Strategies container. Manages all Strategies and their workers.
  * @author ahmad.bakr
  *
  */
