@@ -22,6 +22,15 @@ public class StrategiesContainer {
         workersList = new ArrayList<Worker>();
         workersMap = new HashMap<String, Integer>();
     }
+    
+    /**
+     * Run all the workers
+     */
+    public synchronized void runAll(){
+        for(Worker worker : workersList){
+            worker.start();
+        }
+    }
 
     /**
      * Add new strategy to the containers

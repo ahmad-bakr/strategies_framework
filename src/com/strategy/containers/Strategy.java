@@ -22,5 +22,9 @@ public interface Strategy {
      * Stop the strategy
      */
     void stop();
+    
+    void beforeStart();
+    
+    void afterFinish();
 
 }
